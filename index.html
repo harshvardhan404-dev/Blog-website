@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curiousCorner Blogs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>curiousCorner Blogs</h1>
+        <p>
+            "Creativity is contagious, pass it on."
+            <br>
+            <span style="margin-left: 20px;">- Albert Einstein</span>
+        </p>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#" data-page="home">Home</a></li>
+            <li><a href="#" data-page="articles">Articles</a></li>
+            <li><a href="#" data-page="about">About</a></li>
+            <li><a href="#" data-page="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <div id="home-page" class="page">
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search articles...">
+            </div>
+
+            <form id="post">
+                <h2 style="margin-bottom: 1.5rem; color: #1f2937;">Create New Post</h2>
+                <input type="text" id="title" placeholder="Enter the title" required>
+                <input type="text" id="tags" placeholder="Add tags ">
+                <textarea id="content" placeholder="Write your post content here..." required></textarea>
+                <button type="submit">Publish </button>
+            </form>
+
+            <div class="blogpost">
+                <h2>Getting Started with Web Development</h2>
+                <div class="postinfo">
+                    <span>Posted by John Doe</span> •
+                    <span>March 15, 2024</span>
+                </div>
+                <div class="tags" style="margin-bottom: 1rem;">
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Programming</span>
+                    <span class="tag">Beginners</span>
+                </div>
+                <div class="postcontent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="blogpost">
+                <h2>Design Principles Every Developer Should Know</h2>
+                <div class="postinfo">
+                    <span>Posted by Jane Smith</span> •
+                    <span>March 14, 2024</span>
+                </div>
+                <div class="tags" style="margin-bottom: 1rem;">
+                    <span class="tag">Design</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+                <div class="postcontent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+    </main>
+
+    <div id="articles-page" class="page">
+        <h1>Articles</h1>
+        <p>Browse through our collection of blog posts and articles.</p>
+        <div id="articles-list"></div>
+    </div>
+
+    <div id="about-page" class="page">
+        <h1>About curiousCorner</h1>
+        <p> Welcome to <strong>CuriousCorner Blogs</strong>! Our platform is a space where creativity meets knowledge.
+            We believe in the power of sharing ideas and inspiring others. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Laboriosam fuga ea ex a blanditiis laborum nemo placeat explicabo accusamus ipsa.</p>
+    </div>
+
+    <div id="contact-page" class="page">
+        <h1>Contact Us</h1>
+        <p>Email: harshcuriouscorner@gmail.com</p>
+        <p>Follow us on instagram</p>
+    </div>
+
+
+    <footer>
+        <p>&copy; All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
